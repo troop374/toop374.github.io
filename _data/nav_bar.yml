@@ -1,0 +1,15 @@
+- name: Home
+  link: ./home.html
+- name: About
+  link: ./about.html 
+- name: Adventures
+  link: ./adventures.html
+- name: Blog
+  link: ./blog.html
+- name: Calendar
+  link: ./calendar.html
+- name: Contact
+  link: ./contact.html
+
+
+ 

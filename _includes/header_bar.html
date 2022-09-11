@@ -1,0 +1,6 @@
+<nav>
+    {% for item in site.data.header_bar %}
+      <a href="{{ item.link }}" class="link-light">{{ item.name }}</a>
+      &nbsp; &nbsp;
+    {% endfor %}
+</nav>
