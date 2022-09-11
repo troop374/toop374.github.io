@@ -1,15 +1,15 @@
 - name: Home
-  link: ./home.html
+  link: home.html
 - name: About
-  link: ./about.html 
+  link: about.html 
 - name: Adventures
-  link: ./adventures.html
+  link: adventures.html
 - name: Blog
-  link: ./blog.html
+  link: blog.html
 - name: Calendar
-  link: ./calendar.html
+  link: calendar.html
 - name: Contact
-  link: ./contact.html
+  link: contact.html
 
 
  
