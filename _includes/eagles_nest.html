@@ -1,0 +1,33 @@
+
+
+{% for item in site.data.eagles_nest %}
+    <h3>{{ item.year }}</h3><hr/>            
+        <div class="row">
+            <div class="col-sm">
+            {% for i in (0..item.scouts.size) %}
+                {% if i < item.scouts.size %}                              
+                    <p>
+                        <b><a href="./assets/img/eagles/{{ item.scouts[i].image }}" 
+                            onmouseenter="toggleShow('{{ item.scouts[i].image }}');" 
+                            onmouseleave="toggleHide('{{ item.scouts[i].image }}');">{{ item.scouts[i].name }}</a></b></br> {{ item.scouts[i].date }}
+                        <!--
+                        <img id="{{ item.scouts[i].image }}" src="./assets/img/eagles/{{ item.scouts[i].image }}" style="display:none;" class="img-fluid"/>
+                        -->
+                    </p>
+                {% endif %}
+            {% endfor %}
+            </div>
+            <div class="col-sm">
+                {% for i in (0..item.scouts.size) %}
+                {% if i < item.scouts.size %}                              
+                    <p>
+                        <img id="{{ item.scouts[i].image }}" src="./assets/img/eagles/{{ item.scouts[i].image }}" style="display:none;" class="img-fluid"/>
+                    </p>
+                {% endif %}
+            {% endfor %}
+
+            </div>
+        </div>                 
+        <br/><br/>
+    </p>
+{% endfor %}
