@@ -17,7 +17,7 @@ Prequisites:
 
 3. Setup SSH keys for github access.
     https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-    
+
 4. Install Jekyll (optional)
     It's useful to install Jekyll so that you can view the website changes you make before pushing them to github.
     https://jekyllrb.com/docs/
@@ -95,7 +95,7 @@ Clone the project for the troops website to your local machine
         git push
 
         In a few minutes github will refresh the troop website with the changes from the latest commit.
-        You can view th updated site by browsing to the troop's website at https://www.troop374raleigh.com/home.html.
+        You can view the updated site by browsing to the troop's website at https://www.troop374raleigh.com/home.html.
 
 
 
