@@ -2,19 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Troop374 - {{ page.title }}</title>
+        <title>Troop 374 - {{ page.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="assets/img/bsa-emblem.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">     
+
         <link rel="stylesheet" href="./assets/css/bootstrap-5.0.2/bootstrap.min.css">
         <link rel="stylesheet" href="./assets/css/troop374.css">
-        <link href='http://fonts.googleapis.com/css?family=Ariel:400,300,700' rel='stylesheet' type='text/css'>
-        <link rel='stylesheet' id='divi-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
-        <script src="./assets/js/bootstrap-5.0.2/bootstrap.bundle.min.js"></script>
-        <script src="./assets/js/troop374.js"></script>
+
+        <script src="./assets/js/bootstrap-5.0.2/bootstrap.bundle.min.js" defer="true"></script>
+        <script src="./assets/js/troop374.js" defer="true"></script>
     </head>
-    <body>
-        <div id="header-bar" class="container-fluid row bg-header-bar nopadding">
+    <body> 
+        <div id="header-bar" class="container-fluid row bg-header-bar nopadding" height="2em">
             <div class="col-sm-8"></div>
             <div class="col-sm-4" >
                 {% include header_bar.html %}
@@ -24,23 +28,25 @@
             &nbsp;<br/>
         </div> 
         <div id="nav-bar" class="container-fluid row">
-            <div class="col-sm-6 text-center nopadding">
+            <div class="col-sm-5 text-center nopadding">
                 <nav class="navbar navbar-light justify-content-center">
                     <a class="navbar-brand" href="./home.html">
                         <img src="./assets/img/logo.png" class="logo"/>
                     </a>
                 </nav>
             </div>
-            <div class="col-sm-6 text-center nopadding">
+            <div class="col-sm-7 align-left text-center nopadding">
                 <br/>
                 {% include nav_bar.html %}
             </div>
             &nbsp;<br/>
         </div>
+        {% if page.masthead %}
         <div id="mast-head-bar" class="{{ page.masthead_class }}" style="background-image: url('{{ page.masthead }}');">
 
         </div>
-        <br/>
+        <br/>        
+        {% endif %}
         <div id="main-content-bar" class="container-fluid row">
             {{ content }}
         </div>

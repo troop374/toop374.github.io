@@ -1,10 +1,10 @@
 .logo {
-    max-height: 10vh;
-    width: auto;
+  max-height: 20vh;
+  width: 35vh;
 }
 
 .bg-header-bar {
-  background-color: #005e9d !important;
+  background-color: #005A9C !important;
 }
 
 .nopadding {
@@ -24,10 +24,52 @@
   position: relative;
 }
 
-.active{
-  color: #005e9d !important
+.active {
+  color: #005A9C !important;
+}
+
+.calendar-container {
+  width: 100%;
+  min-height: 50vh;
 }
 
 body {
-  font-family: 'Ariel' !important;
+  font-family: 'Open Sans' !important;
+}
+
+#main-content-bar {
+  min-height: 50vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500; 
+  color: #005A9C;
+  font-family: Marcellus, "Trajan Pro", serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: solid 1px #999;
+  padding-bottom: 1vh;
+  margin-bottom: 1vh;
+  letter-spacing: -0.5pt;
+  font-weight: 500; 
+}
+
+p {
+  line-height: 1.8em;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.navbar-nav {
+  li.nav-item {
+    a {
+      &:hover {    
+        background-color: rgba(206,17,38, 0.85);
+        color: #f8f8f8 !important;
+        border-radius: 2px;   
+      }
+    }
+  }
 }

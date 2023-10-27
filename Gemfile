@@ -5,7 +5,11 @@ source "https://rubygems.org"
 # gem "rails"
 
 # Comment out for github pages.
-#gem "jekyll"
+gem "jekyll"
 
 # Added for github pages
 gem "github-pages", "~> 227", group: :jekyll_plugins
+
+gem "webrick", "~> 1.8"
+
+gem 'jekyll-postcss'

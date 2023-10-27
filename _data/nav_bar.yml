@@ -7,7 +7,7 @@
 - name: Service
   link: service.html
 - name: Calendar
-  link: https://calendar.google.com/calendar/embed?src=v0t81g7gn55aeeuibfglm0ebmvu6cij7%40import.calendar.google.com&ctz=America%2FNew_York&mode=AGENDA
+  link: calendar.html
 - name: Eagles Nest
   link: eagles.html
 - name: Contact
