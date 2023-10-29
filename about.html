@@ -24,148 +24,44 @@ masthead_class: mast-head
         moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law. 
     <p><br/>
 
-    <h3>Troop Leadership</h3><hr/>    
+    <h3>Troop Leadership</h3><hr/>   
+    
     <div class="row">
-        <div class="col-sm">
-            <b>John Hess</b><br/>
-            Scoutmaster      
-        </div>
-        <div class="col-sm">
-            <b>Eddie Overmann</b><br/>
-            Assisant Scoutmaster
-        </div>
-        <div class="col-sm">
-            <b>Bill Dixon</b><br/>
-            Assistant Scoutmaster
-        </div>                
-    </div><br/>    
+    {% for i in (0..site.data.troop_leadership.size) %}
+        {% assign mod = i | modulo:3 %}
+        {% assign troop = site.data.troop_leadership[i] %}
+
+        {% if i > 0 and mod == 0 %}
+    </div>
+    <br/> 
     <div class="row">
+        {% endif %}        
+        
         <div class="col-sm">
-            <b>Jim Wicker</b><br/>
-            Assisant Scoutmaster      
-        </div>
-        <div class="col-sm">
-            <b>Andy Schwab</b><br/>
-            Assisant Scoutmaster
-        </div>
-        <div class="col-sm">
-            <b>Danny Turchick</b><br/>
-            Assistant Scoutmaster
-        </div>                
-    </div><br/>
-    <div class="row">
-        <div class="col-sm">
-            <b>Donna Cole</b><br/>
-            Assisant Scoutmaster      
-        </div>
-        <div class="col-sm">
-            <b>James Eyster</b><br/>
-            Assisant Scoutmaster
-        </div>
-        <div class="col-sm">
-            <b>Mark Duffy</b><br/>
-            Assistant Scoutmaster
-        </div>                
-    </div><br/>
-    <div class="row">
-        <div class="col-sm">
-            <b>Chris Sawyer</b><br/>
-            Treasurer     
-        </div>
-        <div class="col-sm">
-            <b>Dan Worthington</b><br/>
-            Fundraiser Chair
-        </div>
-        <div class="col-sm">
-            <b>Dana Harvey</b> <br/>
-            Court Of Honor Coordinator
-        </div>                
-    </div></br>
-    <div class="row">
-        <div class="col-sm">
-            <b>Nat Ford</b><br/>
-            Unit Committee Chair     
-        </div>
-        <div class="col-sm">
-            <b>Robin Robins</b><br/>
-            Advancement  Chair
-        </div>
-        <div class="col-sm">
-            <b>Ryan Stagner</b><br/>
-            Assisant Scoutmaster & Outdoor Chairman
-        </div>                
-    </div></br>
-    <div class="row">
-        <div class="col-sm">
-            <b>Tammy & Jim Carlisle</b><br/>
-            Secretary    
-        </div>
-        <div class="col-sm">
-            <b>Jose Salcedo</b><br/>
-            Assisant Scoutmaster
-        </div>
-        <div class="col-sm">
-            <b>Gunny Hill</b><br/>
-            Assisant Scoutmaster
-        </div>                
+            <b>{{troop.name}}</b><br/>
+            {{troop.position}}   
+        </div>  
+    {% endfor %}
     </div></br/><br/>
 
     <h3>Scout Leadership</h3><hr/>    
+  
     <div class="row">
-        <div class="col-sm">
-            <b>Jack Watkins</b><br/>
-            Senior Patrol Leader      
-        </div>
-        <div class="col-sm">
-            <b>Gavin Overmann</b><br/>
-            Assisant Senior Patrol Leader
-        </div>
-        <div class="col-sm">
-            <b>Rhys Nieman</b><br/>
-            Patrol Leader
-        </div>                
-    </div><br/>   
+    {% for i in (0..site.data.scout_leadership.size) %}
+        {% assign mod = i | modulo:3 %}
+        {% assign scout = site.data.scout_leadership[i] %}
+
+        {% if i > 0 and mod == 0 %}
+    </div>
+    <br/> 
     <div class="row">
+        {% endif %}        
+        
         <div class="col-sm">
-            <b>Charles Eyster</b> <br/>
-            Patrol Leader      
-        </div>
-        <div class="col-sm">
-            <b>Colin Harvey</b><br/>
-            Troop Guide
-        </div>
-        <div class="col-sm">
-            <b>Cameron Gordon</b><br/>
-            Outdoor Ethics Guide
-        </div>                
-    </div><br/> 
-    <div class="row">
-        <div class="col-sm">
-            <b>Julien Hafner</b><br/>
-            WebMaster    
-        </div>
-        <div class="col-sm">
-            <b>Cooper Carlisle</b><br/>
-            Patrol Leader
-        </div>
-        <div class="col-sm">
-            <b>Jack Watkins</b><br/>
-            Chaplain Aid
-        </div>                
-    </div></br/><br/> 
-    <div class="row">
-        <div class="col-sm">
-            <b>Wyatt Hess</b> <br/>
-            Quarter Master     
-        </div>
-        <div class="col-sm">
-            &nbsp;<br/>
-            &nbsp;
-        </div>
-        <div class="col-sm">
-            &nbsp;<br/>
-            &nbsp;
-        </div>                
+            <b>{{scout.name}}</b><br/>
+            {{scout.position}}   
+        </div>  
+    {% endfor %}
     </div></br/><br/> 
 
     <h3>Adult Experience</h3><hr/> 
