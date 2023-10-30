@@ -65,41 +65,24 @@ masthead_class: mast-head
     </div></br/><br/> 
 
     <h3>Adult Experience</h3><hr/> 
+
     <div class="row">
-        <div class="col-sm">
-            5 Eagle Scout Fathers
-        </div>
-        <div class="col-sm">
-            4 Leaders with 15+ year experience
-        </div>
-        <div class="col-sm">
-            Scout Master is a Troop 374 Eagle Scout
-        </div>                
-    </div></br/>
+    {% for i in (0..site.data.adult_experience.size) %}
+        {% assign mod = i | modulo:3 %}
+        {% assign experience = site.data.adult_experience[i] %}
+
+        {% if i > 0 and mod == 0 %}
+    </div>
+    <br/> 
     <div class="row">
+        {% endif %}        
+        
         <div class="col-sm">
-            ​Occoneechee Council Eagle Scout Advisor
-        </div>
-        <div class="col-sm">
-            NRA and Swimming certified Leaders
-        </div>
-        <div class="col-sm">
-            Woodbadge Award Leaders
-        </div>                
-    </div></br/>
-    <div class="row">
-        <div class="col-sm">
-            Multiple Merit Badge Counselors
-        </div>
-        <div class="col-sm">
-            &nbsp
-        </div>
-        <div class="col-sm">
-            &nbsp
-        </div>                
-    </div></br/>
+            {{experience}}
+        </div>  
+    {% endfor %}
+    </div></br/><br/>
 
 </div>
 <div id="right-text" class="col-sm-2">
-
 </div>
