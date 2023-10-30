@@ -9,7 +9,7 @@ masthead_class: mast-head
     
 </div>  
 
-<div id="main-text" class="col-sm-8"> 
+<div id="main-text" class="col-sm-8 eagles-page"> 
     <h1>Eagles</h1>  
     <p>
         The following members of Troop 374 have been awarded the rank of Eagle Scout, the highest rank attainable in Boy Scouts.  
@@ -33,19 +33,18 @@ masthead_class: mast-head
                 
                 {% if i > 0 and mod == 0 %}
                     </div>
-                    <br/> 
-                    <div class="row">
+                    <div class="row eagle-row">
                 {% endif %}    
                 
-                <div class="col-sm d-flex">                
-                    <div>
-                        <img src="./assets/img/eagles/{{ eagle.image }}" class="circle" />
+                <div class="col-sm d-flex eagle-container">                
+                    <div class="eagle-image-wrapper d-flex justify-content-center" onclick="showImageModal('./assets/img/eagles/{{ eagle.image }}')">
+                        <img src="./assets/img/eagles/{{ eagle.image }}" class="eagle-image" />
                     </div>                
                 
-                    <p>
-                        <b>{{ eagle.name }}</b></br>
-                        {{ eagle.date }}
-                    </p>
+                    <div>
+                        <h5>{{ eagle.name }}</h5>
+                        <i>{{ eagle.date }}</i>
+                    </div>
                 </div>
             {% endfor %}
 
@@ -64,3 +63,14 @@ masthead_class: mast-head
 <div id="right-text" class="col-sm-2">
 
 </div>
+
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <img src="" class="imagepreview" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
