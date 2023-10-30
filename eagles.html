@@ -23,8 +23,41 @@ masthead_class: mast-head
         can be earned through Eagle Palms, awarded for completing additional tenure, leadership, and merit badge requirements.
     </p><br/>
 
-    
-    {% include eagles_nest.html %}
+    {% for item in site.data.eagles_nest %}
+    <h3>{{ item.year }}</h3><hr/>  
+              
+        <div class="row">            
+            {% for eagle in item.scouts %}    
+                {% assign i = forloop.index0 %}
+                {% assign mod = i | modulo:3 %}
+                
+                {% if i > 0 and mod == 0 %}
+                    </div>
+                    <br/> 
+                    <div class="row">
+                {% endif %}    
+                
+                <div class="col-sm d-flex">                
+                    <div>
+                        <img src="./assets/img/eagles/{{ eagle.image }}" class="circle" />
+                    </div>                
+                
+                    <p>
+                        <b>{{ eagle.name }}</b></br>
+                        {{ eagle.date }}
+                    </p>
+                </div>
+            {% endfor %}
+
+            {% assign add = item.scouts.size | modulo:3 | minus: 1 %}
+            {% for pad in (1..add) %}
+                <div class="col-sm">&nbsp;</div> 
+            {% endfor %}
+
+        </div>                
+        <br/><br/>
+    {% endfor %}         
+
 </div>   
 
     

@@ -27,9 +27,9 @@ masthead_class: mast-head
     <h3>Troop Leadership</h3><hr/>   
     
     <div class="row">
-    {% for i in (0..site.data.troop_leadership.size) %}
+    {% for troop in site.data.troop_leadership %}
+        {% assign i = forloop.index0 %}
         {% assign mod = i | modulo:3 %}
-        {% assign troop = site.data.troop_leadership[i] %}
 
         {% if i > 0 and mod == 0 %}
     </div>
@@ -42,14 +42,20 @@ masthead_class: mast-head
             {{troop.position}}   
         </div>  
     {% endfor %}
+
+    {% assign add = site.data.troop_leadership.size | modulo:3 | minus: 1 %}
+    {% for pad in (1..add) %}
+        <div class="col-sm">&nbsp;</div> 
+    {% endfor %}
+
     </div></br/><br/>
 
     <h3>Scout Leadership</h3><hr/>    
   
     <div class="row">
-    {% for i in (0..site.data.scout_leadership.size) %}
+    {% for scout in site.data.scout_leadership %}
+        {% assign i = forloop.index0 %}
         {% assign mod = i | modulo:3 %}
-        {% assign scout = site.data.scout_leadership[i] %}
 
         {% if i > 0 and mod == 0 %}
     </div>
@@ -62,14 +68,21 @@ masthead_class: mast-head
             {{scout.position}}   
         </div>  
     {% endfor %}
+
+    {% assign add = site.data.scout_leadership.size | modulo:3 | minus: 1 %}
+    {% for pad in (1..add) %}
+        <div class="col-sm">&nbsp;</div> 
+    {% endfor %}
+
     </div></br/><br/> 
 
     <h3>Adult Experience</h3><hr/> 
 
     <div class="row">
-    {% for i in (0..site.data.adult_experience.size) %}
+
+    {% for experience in site.data.adult_experience %}
+        {% assign i = forloop.index0 %}
         {% assign mod = i | modulo:3 %}
-        {% assign experience = site.data.adult_experience[i] %}
 
         {% if i > 0 and mod == 0 %}
     </div>
@@ -81,6 +94,12 @@ masthead_class: mast-head
             {{experience}}
         </div>  
     {% endfor %}
+
+    {% assign add = site.data.adult_experience.size | modulo:3 | minus: 1 %}
+    {% for pad in (1..add) %}
+        <div class="col-sm">&nbsp;</div> 
+    {% endfor %}    
+
     </div></br/><br/>
 
 </div>
