@@ -1,30 +1,36 @@
-- name: Donna Cole
-  position: Team Manager, Assistant Scoutmaster
-- name: Bill Dixon
-  position: Team Manager, Assistant Scoutmaster
-- name: James Eyster
-  position: Assistant Scoutmaster
 - name: Nat Ford
   position: Team Owner, Unit Committee Chair
 - name: Jon Hess
   position: Team Manager, Scoutmaster
-- name: Cindy Ingalls
-  position: SAPC Facilities Director
+- name: Donna Cole
+  position: Team Manager, Assistant Scoutmaster
+- name: Bill Dixon
+  position: Team Manager, Assistant Scoutmaster
 - name: Eddie Overmann
   position: Team Manager, ASM, Recruiting Coord.
-- name: Robin Robbins
-  position: Team Manager, Committee, Advancement Chair
 - name: José Salcedo
   position: Team Manager, ASM, Outdoor Activities Chair
-- name: Chris Sawyer
-  position: Treasurer
-- name: Ryan Stagner
-  position: ASM
-- name: Danny Turchick
+- name: Robin Robbins
+  position: Team Manager, Committee, Advancement Chair
+- name: James Eyster
   position: Assistant Scoutmaster
-- name: Tom Watkins
-  position: Exec Officer, Pastor, Training Coord.
 - name: Jim Wicker
   position: Assistant Scoutmaster
+- name: Ryan Stagner
+  position: ASM
+- name: Gunny Hill
+  position: Assistant Scoutmasters
+- name: Connor Larson
+  position: Assistant Scoutmasters
+- name: Tom Watkins
+  position: Exec Officer, Pastor, Training Coord.
+- name: Chris Sawyer
+  position: Treasurer
+- name: Laurie Biggs
+  position: Secretary
 - name: Dan Worthington
   position: Fund Raiser Chair
+- name: Cindy Ingalls
+  position: SAPC Facilities Director
+- name: Kyle Humphrey
+  position: Court of Honor Coordinator

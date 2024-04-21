@@ -1,42 +1,42 @@
-- name: Greg Biggs
-  position: Scribe
-- name: Payce Brown
-  position: Asst. Patrol Leader - Biohazard Bacon
-- name: Zaish Cargman
-  position: Asst. Patrol Leader - Flaming Ducks, WebMaster
+- name: Jack Watkins
+  position: Senior Patrol Leader
 - name: Charles Eyster
   position: Patrol Leader - Fire Breathing Monkeys
-- name: Carter Ford
-  position: Asst. Patrol Leader - Fire Breathing Monkeys
-- name: Jackson Garrett
-  position: Outdoor Ethics Guide
-- name: Cameron Gordon
-  position: OA Representative
-- name: Colin Harvey
-  position: Quartermaster
-- name: Wyatt Hess
-  position: Outdoor Ethics Guide
+- name: David Vance
+  position: Patrol Leader - Bacon
 - name: Lucas Hill
   position: Patrol Leader - Cosmic Cardinals
-- name: Michael Knafo
-  position: Troop Guide
 - name: David Matthews
   position: Patrol Leader - Flaming Ducks
+- name: Ethan Stagner
+  position: Patrol Leader - Fire Breathing Monkeys
+- name: Payce Brown
+  position: Asst. Patrol Leader - Biohazard Bacon
+- name: Carter Ford
+  position: Asst. Patrol Leader - Fire Breathing Monkeys
+- name: Henry Worthington
+  position: Asst. Patrol Leader - Cosmic Cardinals
+- name: Zaish Cargman
+  position: Asst. Patrol Leader - Flaming Ducks, WebMaster
 - name: Rhys Nieman
   position: Asst. Patrol Leader
+- name: Michael Knafo
+  position: Troop Guide
+- name: Jake Zimmerman
+  position: Troop Guide
 - name: Finn Nieman
   position: Quartermaster
+- name: Colin Harvey
+  position: Quartermaster
+- name: Greg Biggs
+  position: Scribe
 - name: Gavin Overmann
   position: Historian
 - name: Zack Sawyer
   position: Bugler
-- name: Ethan Stagner
-  position: Patrol Leader - Fire Breathing Monkeys
-- name: David Vance
-  position: Patrol Leader - Bacon
-- name: Jack Watkins
-  position: Senior Patrol Leader
-- name: Henry Worthington
-  position: Asst. Patrol Leader - Cosmic Cardinals
-- name: Jake Zimmerman
-  position: Troop Guide
+- name: Jackson Garrett
+  position: Outdoor Ethics Guide
+- name: Wyatt Hess
+  position: Outdoor Ethics Guide
+- name: Cameron Gordon
+  position: Order of the Arrow Representative
