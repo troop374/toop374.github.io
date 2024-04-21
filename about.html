@@ -1,106 +1,94 @@
 ---
 layout: default
 title: About
-masthead: ./assets/img/Scouting.webp
+masthead: ./assets/img/ScoutingNew.jpg
 masthead_class: mast-head
 ---
 
 <div id="left-text" class="col-sm-2">
-    
-</div>    
 
-<div id="main-text" class="col-sm-8"> 
-    <h1>About the Troop</h1><br/>
+</div>
+
+<div id="main-text" class="col-sm-8">
+    <h1>About the Troop</h1><br />
     <p>
-        Troop 374 is a moderate-sized troop with a dynamic membership which engages in a variety of activites chosen by the scouts.  
-        
+        Troop 374 is a moderate-sized troop with a dynamic membership which engages in a variety of activites chosen by
+        the scouts.
+
     </p>
     <p>
-        Scouting is a year-round Boy Scouts of America program designed for 
+        Scouting is a year-round Boy Scouts of America program designed for
         boys who are between the ages of 11 and 18 years old.
     </p>
     <p>
-        Parents, leaders, and organizations work together to prepare young people to make ethical and 
-        moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law. 
-    <p><br/>
+        Parents, leaders, and organizations work together to prepare young people to make ethical and
+        moral choices over their lifetimes by instilling in them the values of the Scout Oath and Law.
+    <p><br />
 
-    <h3>Troop Leadership</h3><hr/>   
-    
+    <h3>Troop Leadership</h3>
+    <hr />
+
     <div class="row">
-    {% for troop in site.data.troop_leadership %}
+        {% for troop in site.data.troop_leadership %}
         {% assign i = forloop.index0 %}
         {% assign mod = i | modulo:3 %}
 
         {% if i > 0 and mod == 0 %}
     </div>
-    <br/> 
+    <br />
     <div class="row">
-        {% endif %}        
-        
-        <div class="col-sm">
-            <b>{{troop.name}}</b><br/>
-            {{troop.position}}   
-        </div>  
-    {% endfor %}
+        {% endif %}
 
-    {% assign add = site.data.troop_leadership.size | modulo:3 | minus: 1 %}
-    {% for pad in (1..add) %}
-        <div class="col-sm">&nbsp;</div> 
-    {% endfor %}
+        <div class="col-sm leadership">
+            <div class="name">{{troop.name}}</div>
+            <div class="position">{{troop.position}}</div>
+        </div>
+        {% endfor %}
 
-    </div></br/><br/>
+        {% assign add = site.data.troop_leadership.size | modulo:3 | minus: 1 %}
+        {% for pad in (1..add) %}
+        <div class="col-sm">&nbsp;</div>
+        {% endfor %}
 
-    <h3>Scout Leadership</h3><hr/>    
-  
+    </div></br /><br />
+
+    <h3>Scout Leadership</h3>
+    <hr />
+
     <div class="row">
-    {% for scout in site.data.scout_leadership %}
+        {% for scout in site.data.scout_leadership %}
         {% assign i = forloop.index0 %}
         {% assign mod = i | modulo:3 %}
 
         {% if i > 0 and mod == 0 %}
     </div>
-    <br/> 
+    <br />
     <div class="row">
-        {% endif %}        
-        
-        <div class="col-sm">
-            <b>{{scout.name}}</b><br/>
-            {{scout.position}}   
-        </div>  
-    {% endfor %}
+        {% endif %}
 
-    {% assign add = site.data.scout_leadership.size | modulo:3 | minus: 1 %}
-    {% for pad in (1..add) %}
-        <div class="col-sm">&nbsp;</div> 
-    {% endfor %}
+        <div class="col-sm leadership">
+            <div class="name">{{scout.name}}</div>
+            <div class="position">{{scout.position}}</div>
+        </div>
+        {% endfor %}
 
-    </div></br/><br/> 
+        {% assign add = site.data.scout_leadership.size | modulo:3 | minus: 1 %}
+        {% for pad in (1..add) %}
+        <div class="col-sm">&nbsp;</div>
+        {% endfor %}
 
-    <h3>Adult Experience</h3><hr/> 
+    </div></br /><br />
 
-    <div class="row">
+    <h3>Adult Experience</h3>
+    <hr />
 
-    {% for experience in site.data.adult_experience %}
-        {% assign i = forloop.index0 %}
-        {% assign mod = i | modulo:3 %}
+    <ul>
+        {% for experience in site.data.adult_experience %}
+        <li><b>{{experience.header}}</b>: {{experience.details}}</li>
+        {% endfor %}
+    </ul>
 
-        {% if i > 0 and mod == 0 %}
-    </div>
-    <br/> 
-    <div class="row">
-        {% endif %}        
-        
-        <div class="col-sm">
-            {{experience}}
-        </div>  
-    {% endfor %}
-
-    {% assign add = site.data.adult_experience.size | modulo:3 | minus: 1 %}
-    {% for pad in (1..add) %}
-        <div class="col-sm">&nbsp;</div> 
-    {% endfor %}    
-
-    </div></br/><br/>
+    </br />
 
 </div>
 <div id="right-text" class="col-sm-2">
