@@ -1,32 +1,42 @@
-- name: Alex Biggs
-  position: Assistant Patrol Leader
-- name: Zaish Cargman
-  position: Patrol Leader, Webmaster
-- name: Charles Eyster
-  position: Chaplain's Aide, Assistant Patrol Leader
-- name: Carter Ford
-  position: Patrol Leader  
-- name: Jackson Garrett
-  position: Librarian
-- name: Cameron Gordon
-  position: Order of the Arrow Representative
-- name: Julien Hafner
+- name: Greg Biggs
   position: Scribe
+- name: Payce Brown
+  position: APL | Biohazard Bacon
+- name: Zaish Cargman
+  position: APL Flaming Ducks, WebMaster
+- name: Charles Eyster
+  position: PL - Fire Breathing Monkeys
+- name: Carter Ford
+  position: APL Fire Breathing Monkeys
+- name: Jackson Garrett
+  position: Outdoor Ethics Guide
+- name: Cameron Gordon
+  position: OA Representative
 - name: Colin Harvey
   position: Quartermaster
 - name: Wyatt Hess
   position: Outdoor Ethics Guide
-- name: David Matthews
-  position: Assistant Patrol Leader
-- name: Rhys Nieman
-  position: Assistant Patrol Leader  
-- name: Finn Nieman
-  position: Patrol Leader
-- name: Gavin Overmann
+- name: Lucas Hill
+  position: PL Cosmic Cardinals
+- name: Michael Knafo
   position: Troop Guide
+- name: David Matthews
+  position: PL Flaming Ducks
+- name: Rhys Nieman
+  position: ASPL
+- name: Finn Nieman
+  position: Quartermaster
+- name: Gavin Overmann
+  position: Historian
 - name: Zack Sawyer
   position: Bugler
+- name: Ethan Stagner
+  position: PL Fire Breathing Monkeys
+- name: David Vance
+  position: PL Bacon
 - name: Jack Watkins
   position: Senior Patrol Leader
+- name: Henry Worthington
+  position: APL Cosmic Cardinals
 - name: Jake Zimmerman
-  position: Historian
+  position: Troop Guide
