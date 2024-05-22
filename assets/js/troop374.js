@@ -20,7 +20,9 @@ $(document).ready(function () {
 
   if (parallax) {
     $('#mast-head-bar').addClass('parallax');
+  }
 
+  if ($('.parallax').length > 0) {
     window.addEventListener('scroll', function () {
       var scrolled = window.scrollY || window.pageYOffSet;
       var parallax = document.querySelector('.parallax');
