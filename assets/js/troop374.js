@@ -20,5 +20,12 @@ $(document).ready(function () {
 
   if (parallax) {
     $('#mast-head-bar').addClass('parallax');
+
+    window.addEventListener('scroll', function () {
+      var scrolled = window.scrollY || window.pageYOffSet;
+      var parallax = document.querySelector('.parallax');
+      var coords = '50% ' + -(scrolled * 0.50) + 'px';
+      parallax.style.backgroundPosition = coords;
+    });
   }
 });

@@ -26,8 +26,8 @@
   }
 
   &.parallax {
+    background-position: top;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
   }
 }
