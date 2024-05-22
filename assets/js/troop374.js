@@ -13,11 +13,12 @@ function showImageModal(imageSrc) {
   $('#imagemodal').modal('show');
 }
 
+// for testing different mastheads
 $(document).ready(function () {
   const urlParams = new URLSearchParams(window.location.search);
-  const testParam = urlParams.get('test');
+  const parallax = urlParams.get('parallax');
 
-  if (testParam) {
-    $('#mast-head-bar').css('background-image', "url('assets/img/home/image" + testParam + ".jpg')")
+  if (parallax) {
+    $('#mast-head-bar').addClass('parallax');
   }
 });

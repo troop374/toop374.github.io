@@ -16,12 +16,20 @@
   background-size: cover;
   min-height: 60vh;
   position: relative;
-}
 
-.mast-head-80 {
-  background-size: cover;
-  min-height: 80vh;
-  position: relative;
+  &.short {
+    min-height: 30vh;
+  }
+
+  &.center {
+    background-position: center;
+  }
+
+  &.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 .active {
