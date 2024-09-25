@@ -306,6 +306,6 @@ After a few minutes, GitHub will deploy the changes. Visit <https://www.troop374
 
 ## Conclusion
 
-You've successfully set up your development environment for the Troop374 website. You can now edit, preview, and deploy changes to the site. If you encounter any issues or have questions, feel free to reach out for assistance.
+You've successfully set up your development environment for the Troop374 website. You can now edit, preview, and deploy changes to the site.
 
 ---
