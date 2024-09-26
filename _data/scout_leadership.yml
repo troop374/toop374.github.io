@@ -1,42 +1,68 @@
-- name: Jack Watkins
-  position: Senior Patrol Leader
-- name: Charles Eyster
-  position: Patrol Leader - Fire Breathing Monkeys
-- name: David Vance
-  position: Patrol Leader - Bacon
-- name: Lucas Hill
-  position: Patrol Leader - Cosmic Cardinals
-- name: David Matthews
-  position: Patrol Leader - Flaming Ducks
-- name: Ethan Stagner
-  position: Patrol Leader - Fire Breathing Monkeys
-- name: Payce Brown
-  position: Asst. Patrol Leader - Biohazard Bacon
-- name: Carter Ford
-  position: Asst. Patrol Leader - Fire Breathing Monkeys
-- name: Henry Worthington
-  position: Asst. Patrol Leader - Cosmic Cardinals
-- name: Zaish Cargman
-  position: Asst. Patrol Leader - Flaming Ducks, WebMaster
-- name: Rhys Nieman
-  position: Asst. Patrol Leader
-- name: Michael Knafo
-  position: Troop Guide
-- name: Jake Zimmerman
-  position: Troop Guide
-- name: Finn Nieman
-  position: Quartermaster
-- name: Colin Harvey
-  position: Quartermaster
-- name: Greg Biggs
-  position: Scribe
-- name: Gavin Overmann
-  position: Historian
-- name: Zack Sawyer
-  position: Bugler
-- name: Jackson Garrett
-  position: Outdoor Ethics Guide
 - name: Wyatt Hess
-  position: Outdoor Ethics Guide
+  position: Cosmic Cardinals; Senior Patrol Leader
 - name: Cameron Gordon
-  position: Order of the Arrow Representative
+  position: Fire Breathing Monkeys; Assistant Senior Patrol Leader; Order of the Arrow Troop Representative
+- name: Carter Ford
+  position: Fire Breathing Monkeys; Patrol Leader
+- name: Lucas Hill
+  position: Cosmic Cardinals; Patrol Leader
+- name: David Matthews
+  position: Flaming Ducks; Patrol Leader
+- name: Mason McKee
+  position: Flaming Ducks; Patrol Leader
+- name: David Vance
+  position: Biohazard Bacon; Patrol Leader
+- name: Payce Brown
+  position: Biohazard Bacon; Assistant Patrol Leader
+- name: Zaish Cargman
+  position: Flaming Ducks; Assistant Patrol Leader; Webmaster
+- name: Henry Worthington
+  position: Cosmic Cardinals; Assistant Patrol Leader
+- name: Michael Knafo
+  position: Flaming Ducks; Troop Guide
+- name: Jake Zimmerman
+  position: Fire Breathing Monkeys; Troop Guide
+- name: Colin Harvey
+  position: Fire Breathing Monkeys; Quartermaster
+- name: Rhys Nieman
+  position: Cosmic Cardinals; Quartermaster
+- name: Finn Nieman
+  position: Cosmic Cardinals; Quartermaster
+- name: Jackson Garrett
+  position: Cosmic Cardinals; Outdoor Ethics Guide
+- name: Alex Biggs
+  position: Biohazard Bacon; Scribe
+- name: Zack Sawyer
+  position: Flaming Ducks; Bugler
+- name: Gavin Overmann
+  position: Flaming Ducks; Historian
+- name: Lucas Carroll
+  position: Biohazard Bacon
+- name: Robert Clemons
+  position: Biohazard Bacon
+- name: Zac Gordon
+  position: Biohazard Bacon
+- name: Garrett Guy
+  position: Biohazard Bacon
+- name: Bryson Guy
+  position: Biohazard Bacon
+- name: Julien Hafner
+  position: Flaming Ducks
+- name: Cole Harclerode
+  position: Fire Breathing Monkeys
+- name: Reid Humphrey
+  position: Cosmic Cardinals
+- name: Harrison Jimenez
+  position: Cosmic Cardinals
+- name: Matthew Knafo
+  position: Fire Breathing Monkeys
+- name: Holden Long
+  position: Biohazard Bacon
+- name: Jacob Salcedo
+  position: Biohazard Bacon
+- name: CJ Smith
+  position: Biohazard Bacon
+- name: Jaxson Talerico
+  position: Biohazard Bacon
+- name: Jack Watkins
+  position: Cosmic Cardinals

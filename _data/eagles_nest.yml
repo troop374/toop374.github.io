@@ -1,5 +1,8 @@
 - year: 2024
   scouts:
+  - name: Jack Watkins
+    date: September
+    image: 104-jack-watkins.jpg  
   - name: Gavin Overmann
     date: June 12
     image: 103-gavin-overmann.jpg
