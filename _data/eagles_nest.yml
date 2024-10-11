@@ -1,7 +1,10 @@
 - year: 2024
   scouts:
+  - name: Julien Hafner
+    date: October 9
+    image: 105-julien-hafner.jpg    
   - name: Jack Watkins
-    date: September
+    date: September 11
     image: 104-jack-watkins.jpg  
   - name: Gavin Overmann
     date: June 12
