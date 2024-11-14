@@ -1,11 +1,17 @@
 - year: 2024
   scouts:
+  - name: Carter Ford
+    date: November 13
+    image: 107-carter-ford.jpg
+  - name: Colin Harvey
+    date: November 13
+    image: 106-colin-harvey.jpg
   - name: Julien Hafner
     date: October 9
-    image: 105-julien-hafner.jpg    
+    image: 105-julien-hafner.jpg
   - name: Jack Watkins
     date: September 11
-    image: 104-jack-watkins.jpg  
+    image: 104-jack-watkins.jpg
   - name: Gavin Overmann
     date: June 12
     image: 103-gavin-overmann.jpg
