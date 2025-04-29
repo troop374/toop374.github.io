@@ -1,68 +1,18 @@
-- name: Wyatt Hess
-  position: Cosmic Cardinals; Senior Patrol Leader
-- name: Cameron Gordon
-  position: Fire Breathing Monkeys; Assistant Senior Patrol Leader; Order of the Arrow Troop Representative
-- name: Carter Ford
-  position: Fire Breathing Monkeys; Patrol Leader
-- name: Lucas Hill
-  position: Cosmic Cardinals; Patrol Leader
 - name: David Matthews
-  position: Flaming Ducks; Patrol Leader
-- name: Mason McKee
-  position: Flaming Ducks; Patrol Leader
-- name: David Vance
-  position: Biohazard Bacon; Patrol Leader
-- name: Payce Brown
-  position: Biohazard Bacon; Assistant Patrol Leader
-- name: Zaish Cargman
-  position: Flaming Ducks; Assistant Patrol Leader; Webmaster
-- name: Henry Worthington
-  position: Cosmic Cardinals; Assistant Patrol Leader
-- name: Michael Knafo
-  position: Flaming Ducks; Troop Guide
-- name: Jake Zimmerman
-  position: Fire Breathing Monkeys; Troop Guide
-- name: Colin Harvey
-  position: Fire Breathing Monkeys; Quartermaster
-- name: Rhys Nieman
-  position: Cosmic Cardinals; Quartermaster
-- name: Finn Nieman
-  position: Cosmic Cardinals; Quartermaster
-- name: Jackson Garrett
-  position: Cosmic Cardinals; Outdoor Ethics Guide
+  position: Flaming Geese; Senior Patrol Leader
 - name: Alex Biggs
-  position: Biohazard Bacon; Scribe
-- name: Zack Sawyer
-  position: Flaming Ducks; Bugler
-- name: Gavin Overmann
-  position: Flaming Ducks; Historian
-- name: Lucas Carroll
-  position: Biohazard Bacon
-- name: Robert Clemons
-  position: Biohazard Bacon
-- name: Zac Gordon
-  position: Biohazard Bacon
-- name: Garrett Guy
-  position: Biohazard Bacon
-- name: Bryson Guy
-  position: Biohazard Bacon
-- name: Julien Hafner
-  position: Flaming Ducks
-- name: Cole Harclerode
-  position: Fire Breathing Monkeys
-- name: Reid Humphrey
-  position: Cosmic Cardinals
-- name: Harrison Jimenez
-  position: Cosmic Cardinals
-- name: Matthew Knafo
-  position: Fire Breathing Monkeys
-- name: Holden Long
-  position: Biohazard Bacon
+  position: Flaming Geese; Assistant Senior Patrol Leader 
+- name: Payce Brown
+  position: Flaming Geese; Patrol Leader
 - name: Jacob Salcedo
-  position: Biohazard Bacon
-- name: CJ Smith
-  position: Biohazard Bacon
-- name: Jaxson Talerico
-  position: Biohazard Bacon
-- name: Jack Watkins
-  position: Cosmic Cardinals
+  position: Flaming Geese; Assistant Patrol Leader
+- name: Hayes Gerber
+  position: Blue Phoenixes; Patrol Leader
+- name: Robert Clemons
+  position: Blue Phoenixes; Assistant Patrol Leader
+- name: Jake Zimmerman
+  position: Flaming Geese; Librarian
+- name: Zack Sawyer
+  position: Flaming Geese; Bugler; Quartermaster
+- name: Zaish Cargman
+  position: Flaming Geese; Webmaster
