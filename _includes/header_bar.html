@@ -1,6 +1,10 @@
 <nav>
     {% for item in site.data.header_bar %}
+      {% if item.emails %}
+      <a href="#" class="link-light email-link" data-emails="{{ item.emails | join: ',' }}" data-subject="{{ item.subject }}">{{ item.name }}</a>
+      {% else %}
       <a href="{{ item.link }}" class="link-light">{{ item.name }}</a>
+      {% endif %}
       &nbsp; &nbsp;
     {% endfor %}
 </nav>
